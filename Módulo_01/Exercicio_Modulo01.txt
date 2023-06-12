@@ -1,0 +1,5 @@
+	Como o Front-end atua diretamente com a interface de paginas, sites, etc, e, consequentemente diretamente com o usuário, existe um tripé fundamental por trás desse resultado final. 
+	É o HTML, o CSS e o JavaScript que fazem com que o produto final chegue de forma perfeita, para que o usuário tenha a melhor experiência possível.
+	Fazendo uma analogia, o HTML é a estrutura do programa, com ele são definidas onde cada parte do corpo da página ficará, seja um título, um botão, uma coluna de texto. No entanto, ele não organiza a página esteticamente, para que fique com um visual mais atrativo, é aí que entra o CSS.
+	O CSS coloca um visual que deixa a página mais bonita, definindo a aparência em diversos tipos de tela, no entanto, a página ainda fica engessada, sem dinâmica, para isso, o JavaScript é utilizado.
+	O JavaScript da fluidez às páginas. É uma linguagem de programação que é interpretada pelos navegadores Web, permitindo que as páginas exerçam ações e comportamentos que interajam com o usuário e permita que os objetivos da página sejam executados.
