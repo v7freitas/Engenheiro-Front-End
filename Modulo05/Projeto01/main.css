@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 16px 0px;
+    background-color: #182C61;
+    display: block;
+    color: #ecf0f1;
+    font-family: 'Bungee', cursive;
+
+}
+
+h1{
+    font-size: 2.3em;
+}
+
+header nav  a {
+    color: #ecf0f1;
+    text-decoration: none;
+    display: inline;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 20px;
+}
+
+.container{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container, section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img{
+    height: 24px;
+}
+
+.brands-list li{
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container{
+    align-items: flex-start;
+}
+section{
+    padding: 24px 0px;
+}
+
+section h2{
+    margin-bottom: 8px;
+    font-family: 'Bungee', cursive;
+    color: #182C61;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+section p{
+    margin-bottom: 8px;
+    text-align: justify;
+    color: #182C61;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+section .store-front{
+    margin-right: 40px;
+    
+}
+
+
