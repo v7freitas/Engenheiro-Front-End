@@ -10,6 +10,12 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Bungee', cursive;
+    color: #182C61;
+    font-weight: normal;
+}
+
 header{
     padding: 16px 0px;
     background-color: #182C61;
@@ -86,4 +92,57 @@ section .store-front{
     
 }
 
+#contact .container{
+    display: block;
+}
 
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+}
+
+address{
+    font-family: 'Roboto', sans-serif;
+}
+
+.social-links img{
+    height: 24px;
+    
+}
+
+.social-links li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+form input, 
+form textarea, 
+form button{
+    display: block;
+    margin-bottom: 8px;
+    padding: 8px;
+    width: 320px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+
+}
+
+form button{
+    background-color: #182C61;
+    font-family: 'Bungee', cursive;
+    color: #ecf0f1;
+    font-weight: normal;
+    border: none;
+    cursor: pointer;
+}
+
+h3{
+    font-weight: normal;
+}
