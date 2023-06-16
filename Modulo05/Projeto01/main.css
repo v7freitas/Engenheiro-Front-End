@@ -16,6 +16,10 @@ body{
     font-weight: normal;
 }
 
+input, textarea{
+    font-family: 'Roboto', sans-serif;
+}
+
 header{
     padding: 16px 0px;
     background-color: #182C61;
@@ -145,4 +149,22 @@ form button{
 
 h3{
     font-weight: normal;
+}
+
+form button:hover{
+    background-color: #3154b3;
+}
+
+form input:focus, form textarea:focus{
+    outline-color:#182C61;
+}
+
+footer{
+    background-color: #182C61;
+    padding: 16px;
+}
+
+footer p{
+    color: #ecf0f1;
+    font-family: 'Roboto', sans-serif;
 }
