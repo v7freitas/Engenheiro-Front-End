@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Bungee', cursive;
+    color: #182C61;
+    font-weight: normal;
+}
+
+input, textarea{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    padding: 16px 0px;
+    background-color: #182C61;
+    display: block;
+    color: #ecf0f1;
+    font-family: 'Bungee', cursive;
+
+}
+
+h1{
+    font-size: 2.3em;
+    font-weight: normal;
+}
+
+header nav  a {
+    color: #ecf0f1;
+    text-decoration: none;
+    display: inline;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.container{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container, section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img{
+    height: 24px;
+}
+
+.brands-list li{
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container{
+    align-items: flex-start;
+}
+section{
+    padding: 24px 0px;
+}
+
+section h2{
+    margin-bottom: 8px;
+    font-family: 'Bungee', cursive;
+    color: #182C61;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+section p{
+    margin-bottom: 8px;
+    text-align: justify;
+    color: #182C61;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+section .store-front{
+    margin-right: 40px;
+    
+}
+
+#contact .container{
+    display: block;
+}
+
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+}
+
+address{
+    font-family: 'Roboto', sans-serif;
+}
+
+.social-links img{
+    height: 24px;
+    
+}
+
+.social-links li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+form input, 
+form textarea, 
+form button{
+    display: block;
+    margin-bottom: 8px;
+    padding: 8px;
+    width: 320px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+
+}
+
+form button{
+    background-color: #182C61;
+    font-family: 'Bungee', cursive;
+    color: #ecf0f1;
+    font-weight: normal;
+    border: none;
+    cursor: pointer;
+}
+
+h3{
+    font-weight: normal;
+}
+
+form button:hover{
+    background-color: #3154b3;
+}
+
+form input:focus, form textarea:focus{
+    outline-color:#182C61;
+}
+
+footer{
+    background-color: #182C61;
+    padding: 16px;
+}
+
+footer p{
+    color: #ecf0f1;
+    font-family: 'Roboto', sans-serif;
+}
