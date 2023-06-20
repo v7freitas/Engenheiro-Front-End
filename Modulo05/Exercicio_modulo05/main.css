@@ -63,7 +63,7 @@ main{
     margin: auto;
 }
 
-main .news, main .formulario{
+main .news, main .formulario, main .contato{
     display: block;
     width: 1200px;
     margin: 0px auto;
@@ -143,3 +143,17 @@ button:hover{
     background-color: #33af2eaf ;
 }
 
+#information{
+    display: flex;
+    width: 65%;
+}
+
+.contato{
+    padding: 20px;
+    display:block;
+}
+
+footer{
+    padding: 16px;
+    text-align: center;
+}
