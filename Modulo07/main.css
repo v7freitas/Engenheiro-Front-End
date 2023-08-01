@@ -47,3 +47,17 @@ button:hover {
     color: #fff;
     display: none;
 }
+.error-message{
+    font-size: 12px;
+    padding: 8px;
+    background-color: red;
+    color: #fff;
+    margin-bottom: 8px;
+    display: none;
+}
+
+input.error{
+    color: red;
+    border-color: red;
+    outline-color: red ;
+}
