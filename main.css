@@ -76,3 +76,7 @@ tbody{
 td{
     padding: 16px;
 }
+
+table img{
+    height: 30px;
+}

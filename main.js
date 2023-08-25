@@ -13,7 +13,7 @@ function adicionaLinha(){
         alert(`Já existe alguém com o nome ${nomeContato.value}, por favor cadastre um nome diferente.`)
     } else{
         nomes.push(nomeContato.value)
-        numeros.push(numeroContato.value)
+        numeros.push(Number(numeroContato.value))
 
         let linha = '<tr>'
         linha += `<td> ${nomeContato.value} </td>`
@@ -26,7 +26,7 @@ function adicionaLinha(){
     }
 
     nomeContato.value = ''
-    numeroContato.value = ''
+    numeroContato.valueOf = ''
 }
 
 function atualizaTabela(){
@@ -39,7 +39,7 @@ form.addEventListener('submit', function(e){
     e.preventDefault()
 
 
-    function adicionaLinha()
-    function atualizaTabela()
+    adicionaLinha()
+    atualizaTabela()
 })
 
