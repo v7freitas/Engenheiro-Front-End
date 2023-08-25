@@ -4,13 +4,15 @@ const numeros = []
 let lista = ''
 const cadastroSalvo = '<img src = "./images/Green-Checklist-PNG-Image.png" alt = "Emoji checklist" />'
 const nomeContato = document.getElementById('nome')
-const numeroContato = Number(document.getElementById('numero'))
+const numeroContato = document.getElementById('numero')
 
 function adicionaLinha(){
     
 
     if(nomes.includes(nomeContato.value)){
         alert(`Já existe alguém com o nome ${nomeContato.value}, por favor cadastre um nome diferente.`)
+    } else if (numeros.includes(Number(numeroContato.value))){
+        alert(`Já existe alguém com o número ${numeroContato.value}, por favor cadastre um número diferente.`)
     } else{
         nomes.push(nomeContato.value)
         numeros.push(Number(numeroContato.value))
@@ -26,7 +28,7 @@ function adicionaLinha(){
     }
 
     nomeContato.value = ''
-    numeroContato.valueOf = ''
+    numeroContato.value = ''
 }
 
 function atualizaTabela(){
