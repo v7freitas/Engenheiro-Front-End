@@ -1,0 +1,97 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header, footer{
+    padding: 16px 0;
+    background-color: rgb(226, 43, 43);
+    color: #fff;
+}
+
+header h1{
+    text-align: center;
+}
+
+body{
+    background-color: rgb(242, 175, 175);
+    overflow-y: hidden;
+}
+
+.container{
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-flex{
+    display: flex;
+}
+
+h1, h2{
+    font-family: 'Lobster', cursive;
+}
+
+.cadastro{
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
+
+h2{
+    color: rgb(226, 43, 43);
+    text-align: center;
+}
+
+form{
+    max-width: 200px;
+    margin: auto;
+}
+
+form input{
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;
+    padding: 5px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+label, footer{
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bold;
+    font-size: small;
+}
+
+button{
+    width: 107%;
+    padding: 5px;
+    background-color:rgb(226, 43, 43);;
+    color: #fff;
+    font-family: 'Chakra Petch', sans-serif;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+button:hover{
+    background-color:rgb(223, 92, 92);
+}
+
+img{
+    height: 20px;
+}
+
+li{
+    list-style: none;
+    margin-left: 10px;
+}
+
+footer{
+    margin-top: 48px;
+}
+
+footer .container{
+    justify-content: center;
+    align-items: center;
+}
+
