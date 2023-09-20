@@ -3,7 +3,7 @@
     margin: 0px;
 }
 
-header, footer{
+header{
     padding: 16px 0;
     background-color: rgb(226, 43, 43);
     color: #fff;
@@ -15,7 +15,6 @@ header h1{
 
 body{
     background-color: rgb(242, 175, 175);
-    overflow-y: hidden;
 }
 
 .container{
@@ -91,7 +90,14 @@ footer{
 }
 
 footer .container{
+    color: #fff;
+    background-color: rgb(226, 43, 43);
+    height: 40px;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
 
