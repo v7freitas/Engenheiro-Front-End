@@ -106,7 +106,9 @@ h2{
 }
 
 h3{
+    font-size: 1.2em;
     color: rgb(20, 20, 66);
+    padding-bottom: 5px;
 }
 
 button{
@@ -118,6 +120,10 @@ button{
     cursor: pointer;
     font-weight: bold;
     width: 100%;
+}
+
+@media screen and (max-width: 1023px) {
+    
 }
 
 @media  screen and (max-width: 640px) {
@@ -142,10 +148,10 @@ button{
         display: none;
     }
 
-    .sobre-a-loja{
+    .container .sobre-a-loja{
         display: block;
-        width: 85%;
-        margin: 20px auto 0;
+        width: 80%;
+        margin: 56px auto 0;
     }
 
     .sobre-a-loja img{
@@ -162,7 +168,7 @@ button{
     }
 
     .container > h2, #produtos{
-        width: 85%;
+        width: 80%;
         margin: 0 auto;
     }
 
@@ -177,7 +183,7 @@ button{
 }
 
 @media screen and (max-width:1023px) {
-    
+
 }
 
 /*
