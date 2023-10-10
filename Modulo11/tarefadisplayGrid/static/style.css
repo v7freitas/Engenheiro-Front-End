@@ -5,6 +5,10 @@
     font-family: 'Roboto', sans-serif;    
 }
 
+main{
+    margin-bottom: 20px;
+}
+
 .container{
     max-width: 1024px;
     width: 100%;
@@ -36,6 +40,12 @@ header div.container{
     list-style: none;
     cursor: pointer;
     color: #fff;
+    text-decoration: none;
+}
+
+.nossas-reservas a{
+    text-decoration: none;
+    color: #fff;
 }
 
 .menu li:hover .submenu{
@@ -45,7 +55,7 @@ header div.container{
 .submenu{
     display: none;
     position: absolute;
-    background-color: rgb(20, 20, 66);
+    background-color: rgba(20, 20, 66, 0.952);
     border-top: 4px solid #fff;
     width: 150px;
 }
@@ -64,6 +74,120 @@ header div.container{
 }
 
 /*Estilo a partir do main*/
+
+.sobre-a-loja{
+    display: flex;
+    margin-top: 56px;
+}
+
+h2{
+    margin-bottom: 20px;
+    color: rgb(20, 20, 66);
+    border-bottom: 2px solid rgb(20, 20, 66);
+    font-style: italic;
+    padding-bottom: 5px;
+}
+
+.sobre-texto{
+    margin-left: 40px;
+}
+
+/*Estilo da sessão dos produtos*/
+
+#reservas{
+    margin-top: 56px;
+}
+
+#produtos{
+    display: grid;
+    grid-template-columns: repeat(4, 24.25%);
+    column-gap: 1%;
+    margin-bottom: 20px;
+}
+
+h3{
+    color: rgb(20, 20, 66);
+}
+
+button{
+    background-color: rgb(20, 20, 66);
+    color: #fff;
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+}
+
+@media  screen and (max-width: 640px) {
+    header div.container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header div.container h1{
+        color: #fff;
+        margin-bottom: 5px;
+    }
+
+    .submenu{
+        display: none;
+        border-top: none;
+    }
+
+    .submenu li{
+        display: none;
+    }
+
+    .sobre-a-loja{
+        display: block;
+        width: 85%;
+        margin: 20px auto 0;
+    }
+
+    .sobre-a-loja img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .sobre-texto{
+        margin-left: 0px;
+    }
+
+    #produtos{
+        display: block;
+    }
+
+    .container > h2, #produtos{
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .reservas{
+        margin-top: 20px;
+    }
+
+    .reservas img{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:1023px) {
+    
+}
+
+/*
+        display: grid;
+        grid-template-columns: repeat(2, 49.5%);
+        column-gap: 1%;
+        margin-bottom: 20px;
+*/
+
+
 
 
 
