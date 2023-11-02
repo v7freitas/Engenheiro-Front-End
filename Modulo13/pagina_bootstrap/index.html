@@ -5,34 +5,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Destiny</title>
     <link rel="stylesheet" href="/lib/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<style></style>
+<style>
+    body{
+        font-family: 'Koh Santepheap', serif;
+    }
+
+    header{
+        background-color: rgb(249, 249, 249);
+        padding: 41.5px 0;
+        border-bottom: 1px solid black;
+    }
+
+    .destinos-menu{
+        text-decoration: none;
+    }
+
+    #slogan{
+        height: 593px;
+        background-image: url(./images/rio-de-janeiro-1963744_1280.jpg);
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+</style>
 <body>
-    <header class="bg-light">
-        <div class="navbar navbar-expand-lg">
-            <div class="container">
-                <h1><a class="navbar-brand" href="#"><img src="./images/destino2.png" alt="icon"> Travel Destiny</a></h1>
-                <button class="navbar-toggler" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
-                <nav>
-            
-                    <ul class="nav navbar">
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Destitanion</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Promotions</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="">About us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Contact us</a>
-                        </li>
-                    </ul>
-                </nav>
+    <header>
+            <div class="navbar navbar-expand-lg">
+                <div class="container">
+                    <h1>Travel Destiny</h1>
+                    <nav>
+                        <ul class="nav navbar-nav nav-pills">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Início</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Sobre</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contato</a>
+                            </li>
+                            <li class="nav-item">
+                                <div class="btn-group">
+                                    <a class="nav-link" href="#">Destinos</a>
+                                    <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown"></button>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown-item">
+                                            <a class="destinos-menu" href="#">Rio de Janeiro</a>
+                                        </li>
+                                        <li class="dropdown-item">
+                                            <a class="destinos-menu" href="#">Rio de Janeiro</a>
+                                        </li>
+                                        <li class="dropdown-item">
+                                            <a class="destinos-menu" href="#">Rio de Janeiro</a>
+                                        </li>
+                                        <li class="dropdown-item">
+                                            <a class="destinos-menu" href="#">Rio de Janeiro</a>
+                                        </li>
+                                        <li class="dropdown-item">
+                                            <a class="destinos-menu" href="#">Rio de Janeiro</a>
+                                        </li>
+                                        <li class="dropdown-item">
+                                            <a class="destinos-menu" href="#">Rio de Janeiro</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-        </div>
     </header>
+    <main>
+        <section id="slogan">
+            <h2>Viaje e sonhe conosco, encontre seu Destino</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae doloremque sapiente nam exercitationem animi id placeat at et laboriosam velit architecto praesentium, enim omnis officia saepe consequatur voluptas eligendi unde.</p>
+        </section>
+    </main>
 
     <script src="/lib/bootstrap.bundle.min.js"></script>
 </body>
