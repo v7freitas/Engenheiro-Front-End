@@ -107,9 +107,14 @@ header{
 
 #formulario textarea{
     width: 300px;
-    height: 200px;
+    height: 150px;
     resize: none;
     border-radius: 5px;
+}
+
+#formulario button{
+    display: block;
+    width: 300px;
 }
 
 footer{
@@ -190,5 +195,17 @@ footer img{
         margin: 20px auto;
     }
 
+    #contato{
+        padding-top: 40px;
+        background-image: url(./images/foto-footer-rj.jpg);
+        background-repeat: no-repeat;
+    }
     
+    footer h4{
+        font-size: 16px;
+    }
+
+    footer{
+        font-size: 12px;
+    }
 }
