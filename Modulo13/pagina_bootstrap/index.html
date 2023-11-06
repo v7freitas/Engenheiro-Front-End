@@ -5,34 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Destiny</title>
     <link rel="stylesheet" href="/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<style>
-    body{
-        font-family: 'Koh Santepheap', serif;
-    }
-
-    header{
-        background-color: rgb(249, 249, 249);
-        padding: 41.5px 0;
-        border-bottom: 1px solid black;
-    }
-
-    .destinos-menu{
-        text-decoration: none;
-    }
-
-    #slogan{
-        height: 593px;
-        background-image: url(./images/rio-de-janeiro-1963744_1280.jpg);
-        width: 100%;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-</style>
 <body>
     <header>
             <div class="navbar navbar-expand-lg">
@@ -55,22 +32,22 @@
                                     <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown"></button>
                                     <ul class="dropdown-menu">
                                         <li class="dropdown-item">
-                                            <a class="destinos-menu" href="#">Rio de Janeiro</a>
+                                            <a class="destinos-menu" href="#RJ">Rio de Janeiro</a>
                                         </li>
                                         <li class="dropdown-item">
-                                            <a class="destinos-menu" href="#">Rio de Janeiro</a>
+                                            <a class="destinos-menu" href="#cancun">Cancún</a>
                                         </li>
                                         <li class="dropdown-item">
-                                            <a class="destinos-menu" href="#">Rio de Janeiro</a>
+                                            <a class="destinos-menu" href="#andes">Cordilheira dos Andes</a>
                                         </li>
                                         <li class="dropdown-item">
-                                            <a class="destinos-menu" href="#">Rio de Janeiro</a>
+                                            <a class="destinos-menu" href="#buenos-aires">Buenos Aires</a>
                                         </li>
                                         <li class="dropdown-item">
-                                            <a class="destinos-menu" href="#">Rio de Janeiro</a>
+                                            <a class="destinos-menu" href="#salvador">Salvador</a>
                                         </li>
                                         <li class="dropdown-item">
-                                            <a class="destinos-menu" href="#">Rio de Janeiro</a>
+                                            <a class="destinos-menu" href="#SP">São Paulo</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -83,8 +60,123 @@
     <main>
         <section id="slogan">
             <h2>Viaje e sonhe conosco, encontre seu Destino</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae doloremque sapiente nam exercitationem animi id placeat at et laboriosam velit architecto praesentium, enim omnis officia saepe consequatur voluptas eligendi unde.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae doloremque sapiente nam exercitationem animi id placeat at et laboriosam velit architecto praesentium, enim omnis officia saepe consequatur voluptas eligendi unde. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, fugit voluptatibus repellendus nostrum fugiat voluptates doloribus ullam magnam magni dicta provident perferendis iusto vero? Voluptate sint nisi corrupti veritatis sed?</p>
         </section>
+        <section id="sobre-e-carousel">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <article class="sobre">
+                                <h2>Planeje com segurança</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam corporis, nisi provident tempora omnis natus voluptatum officiis sequi ut dolore. Laudantium iste ad facilis nihil hic enim id sequi culpa!</p>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic soluta, cumque rerum quasi officiis in illo debitis est dolores, sed modi ipsa ab maiores recusandae culpa molestiae similique. Beatae, dignissimos!</p>
+                                <h2>Conheça os melhores lugares</h2>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, cupiditate eum. Error ipsam necessitatibus, maxime minus iusto, deleniti, labore fuga fugit asperiores similique magnam facilis nam cupiditate vitae nesciunt maiores.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quidem ipsam alias, deserunt iste vitae commodi laborum repellendus sed repellat tempora nemo obcaecati sequi voluptate? Iste maiores vero qui sed?</p>
+                        </article>
+                    </div>
+                    <div class="col-6">
+                        <div class="container">
+                            <div id="carousel" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-bs-interval="5000">
+                                        <img class="d-block w-100" src="./images/rio-de-janeiro-117558_640.jpg" alt="Rio de Janeiro">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="5000">
+                                        <img class="d-block w-100" src="./images/machu-picchu-pq.jpg" alt="Machu picchu">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="5000">
+                                        <img class="d-block w-100" src="./images/praa-pq.jpg" alt="Capadocia">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" data-bs-target="#carousel" type="button" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </button>
+                                <button class="carousel-control-next" data-bs-target="#carousel" type="button" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cards">
+            <div class="container">
+                <h2>Seu destino está aqui</h2>
+                <div class="row">
+                    <div class="col-4">
+                        <div id="RJ" class="card text-bg-dark">
+                            <img src="./images/cristo-redentor.jpg" alt="Cristo Redentor">
+                            <div class="card-img-overlay">
+                                <h3 class="card-title">Rio de Janeiro</h3>
+                                <h4 class="card-subtitle">Visite a cidade maravilhosa</h5>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat modi delectus totam, dolore possimus maiores dignissimos voluptas, consequuntur fugit est ullam enim quia rem numquam a excepturi odio repellat commodi.</p>
+                                <button type="button" class="btn btn-primary">Saiba mais</button>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div id="cancun" class="card text-bg-dark">
+                            <img src="./images/cancun-overlay-image.jpg" alt="Cancun">
+                            <div class="card-img-overlay">
+                                <h3 class="card-title">Cancun</h3>
+                                <h4 class="card-subtitle">Passeio pelo caribe</h5>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat modi delectus totam, dolore possimus maiores dignissimos voluptas, consequuntur fugit est ullam enim quia rem numquam a excepturi odio repellat commodi.</p>
+                                <button type="button" class="btn btn-primary">Saiba mais</button>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div id="andes" class="card text-bg-dark">
+                            <img src="./images/cordilheira dos andes.jpg" alt="Cordilheira dos Andes">
+                            <div class="card-img-overlay">
+                                <h3 class="card-title">Cordilheira dos Andes</h3>
+                                <h4 class="card-subtitle">Explore os Andes</h5>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat modi delectus totam, dolore possimus maiores dignissimos voluptas, consequuntur fugit est ullam enim quia rem numquam a excepturi odio repellat commodi.</p>
+                                <button type="button" class="btn btn-primary">Saiba mais</button>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div id="buenos-aires" class="card text-bg-dark">
+                            <img src="./images/buenos-aires.jpg" alt="Buenos Aires">
+                            <div class="card-img-overlay">
+                                <h3 class="card-title">Buenos Aires</h3>
+                                <h4 class="card-subtitle">Passeio pela Argentina</h5>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat modi delectus totam, dolore possimus maiores dignissimos voluptas, consequuntur fugit est ullam enim quia rem numquam a excepturi odio repellat commodi.</p>
+                                <button type="button" class="btn btn-primary">Saiba mais</button>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div id="salvador" class="card text-bg-dark">
+                            <img src="./images/salvador.jpg" alt="Salvador - Bahia">
+                            <div class="card-img-overlay">
+                                <h3 class="card-title">Salvador</h3>
+                                <h4 class="card-subtitle">Passeio pela capital baiana</h5>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat modi delectus totam, dolore possimus maiores dignissimos voluptas, consequuntur fugit est ullam enim quia rem numquam a excepturi odio repellat commodi.</p>
+                                <button type="button" class="btn btn-primary">Saiba mais</button>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div id="SP" class="card text-bg-dark">
+                            <img src="./images/sao-paulo.jpg" alt="São Paulo">
+                            <div class="card-img-overlay">
+                                <h3 class="card-title">São Paulo</h3>
+                                <h4 class="card-subtitle">Conheça São Paulo</h5>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat modi delectus totam, dolore possimus maiores dignissimos voluptas, consequuntur fugit est ullam enim quia rem numquam a excepturi odio repellat commodi.</p>
+                                <button type="button" class="btn btn-primary">Saiba mais</button>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato">
+            
+        </section>    
     </main>
 
     <script src="/lib/bootstrap.bundle.min.js"></script>
