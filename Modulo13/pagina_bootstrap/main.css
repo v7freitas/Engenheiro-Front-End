@@ -24,8 +24,9 @@ header{
 
 #slogan h2{
     text-align: center;
-    padding-top: 128px;
+    padding-top: 200px;
     font-size: 56px;
+
     color: #fff;
 }
 
@@ -163,7 +164,8 @@ footer img{
 
     #slogan h2{
         text-align: center;
-        padding-top: 128px;
+        padding-top: 200px;
+        margin: 0 10%;
         font-size: 32px;
         color: #fff;
     }
@@ -197,7 +199,7 @@ footer img{
 
     #contato{
         padding-top: 40px;
-        background-image: url(./images/foto-footer-rj.jpg);
+        background-image: url(./images/footer.jpg);
         background-repeat: no-repeat;
     }
     
@@ -207,5 +209,46 @@ footer img{
 
     footer{
         font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    
+    .navbar .container{
+        flex-direction: column;
+    }
+
+    .nav{
+        flex-direction: row;
+    }
+
+    .navbar-nav .dropdown-menu {
+        position: absolute;
+    }
+
+    .navbar-nav a{
+        margin: 0 10px;
+    }
+
+    #slogan{
+        height: 593px;
+        background-image: url(./images/krys-amon-8tTh9isJoos-unsplash.jpg);
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #slogan h2{
+        text-align: center;
+        padding-top: 128px;
+        font-size: 44px;
+        color: #fff;
+        padding: 128px 5% 0;
+    }
+
+    #slogan p{
+        width: 80%;
+        font-size: 0.8em;
+        color: #fff;
     }
 }
