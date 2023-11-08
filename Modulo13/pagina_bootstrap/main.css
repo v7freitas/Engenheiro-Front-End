@@ -26,14 +26,6 @@ header{
     text-align: center;
     padding-top: 200px;
     font-size: 56px;
-
-    color: #fff;
-}
-
-#slogan p{
-    padding-left: 140px;
-    padding-top: 40px;
-    width: 50%;
     color: #fff;
 }
 
@@ -42,12 +34,22 @@ header{
 }
 
 .sobre h2{
-    margin-top: 72px;
+    margin-bottom: 10px;
 }
+
+.sobre p{
+    margin-bottom: 40px;
+}
+
+/*Começar os ajustes daqui para baixo*/
 
 #carousel img{
     border-radius: 20px;
+    max-height: 657px;
+    width: 100%;
 }
+
+
 
 #cards{
     margin-bottom: 72px;
@@ -55,7 +57,7 @@ header{
 
 #cards h2{
     text-align: center;
-    margin: 72px 0;
+    margin: 48px 0;
     font-size: 48px;
 }
 
@@ -86,7 +88,8 @@ header{
 
 #contato{
     padding-top: 40px;
-    background-image: url(./images/rj-medio-cortada.jpg);
+    background-image: url(./images/sebastien-goldberg-w5pqeNrxKU0-unsplash.jpg);
+    background-position-y: center;
     background-repeat: no-repeat;
 }
 
@@ -170,13 +173,6 @@ footer img{
         color: #fff;
     }
 
-    #slogan p{
-        font-size: 12px;
-        padding-left: 20px;
-        width: 70%;
-        color: #fff;
-    }
-
     #sobre-e-carousel > .container{
         display: block;
     }
@@ -191,7 +187,7 @@ footer img{
         margin-bottom: 72px;
     }
 
-    .col-sm-4 .card{
+    .col-12 .card{
         max-width: 356px;
         width: 90%;
         margin: 20px auto;
@@ -213,6 +209,7 @@ footer img{
 }
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
+    
     
     .navbar .container{
         flex-direction: column;
@@ -243,12 +240,18 @@ footer img{
         padding-top: 128px;
         font-size: 44px;
         color: #fff;
-        padding: 128px 5% 0;
+        padding: 128px 10% 0;
     }
 
-    #slogan p{
-        width: 80%;
-        font-size: 0.8em;
-        color: #fff;
+    #sobre-e-carousel{
+        margin-top: 40px;
     }
+
+    #sobre-e-carousel{
+        margin-top: 40px;
+    }
+
+    
+
+    
 }
