@@ -41,15 +41,11 @@ header{
     margin-bottom: 40px;
 }
 
-/*Começar os ajustes daqui para baixo*/
-
 #carousel img{
     border-radius: 20px;
-    max-height: 657px;
+    height: 657px;
     width: 100%;
 }
-
-
 
 #cards{
     margin-bottom: 72px;
@@ -139,6 +135,13 @@ footer img{
     padding-bottom: 5px;
 }
 
+
+
+
+
+
+
+
 @media screen and (max-width: 576px) {
 
     .navbar .container{
@@ -181,6 +184,12 @@ footer img{
         display: block;
     }
 
+    #carousel img{
+        border-radius: 20px;
+        max-height: 580px;
+        width: 100%;
+    }
+
     .sobre{
         width: 90%;
         padding-left: 20px;
@@ -195,8 +204,10 @@ footer img{
 
     #contato{
         padding-top: 40px;
-        background-image: url(./images/footer.jpg);
+        background-image: url(./images/sebastien-goldberg-w5pqeNrxKU0-unsplash.jpg);
         background-repeat: no-repeat;
+        background-size:cover;
+        background-position-x:right;
     }
     
     footer h4{
@@ -207,6 +218,15 @@ footer img{
         font-size: 12px;
     }
 }
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
     
@@ -228,7 +248,7 @@ footer img{
     }
 
     #slogan{
-        height: 593px;
+        height: 400px;
         background-image: url(./images/krys-amon-8tTh9isJoos-unsplash.jpg);
         width: 100%;
         background-repeat: no-repeat;
@@ -243,15 +263,206 @@ footer img{
         padding: 128px 10% 0;
     }
 
-    #sobre-e-carousel{
-        margin-top: 40px;
+    #carousel img{
+        border-radius: 20px;
+        height: 300px;
+        width: 100%;
     }
 
     #sobre-e-carousel{
         margin-top: 40px;
     }
 
-    
+    #sobre-e-carousel{
+        margin-top: 40px;
+    }
 
+    #sobre-e-carousel .row{
+        display: block;
+    }
+
+    #texto{
+        width: 100%;
+    }
+
+    #slides {
+        margin: 0 auto;
+    }
+
+    #cards{
+        margin-bottom: 72px;
+    }
     
+    #cards h2{
+        text-align: center;
+        margin: 48px 0;
+        font-size: 40px;
+    }
+    
+    .card{
+        margin-bottom: 25px;
+    }
+    
+    .card img{
+        height: 350px;
+    }
+
+    .card-img-overlay h3, h4{
+        font-size: 1em;
+    }
+
+    .card-img-overlay p{
+        font-size: 0.7em;
+    }
+
+    .card-img-overlay .btn{
+        font-size: small;
+    }
+    
+    .card-subtitle{
+        padding-top: 5px;
+    }
+    
+    .card-text{
+        padding-top: 40px;
+    }
+
+    #contato h3{
+        font-size: 1.2em;;
+    }
+
 }
+
+
+
+
+@media screen and (min-width: 769px) and (max-width: 991px){
+
+
+    #menu ul{
+        flex-direction: row;
+    }
+
+    #menu ul li{
+        margin: 0 10px;
+    }
+
+    .navbar-nav .dropdown-menu {
+        position: absolute;
+    }
+
+    #slogan{
+        height: 400px;
+        background-image: url(./images/krys-amon-8tTh9isJoos-unsplash.jpg);
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #slogan h2{
+        text-align: center;
+        padding-top: 128px;
+        font-size: 44px;
+        color: #fff;
+        padding: 128px 10% 0;
+    }
+
+    #sobre-e-carousel{
+        margin-top: 48px;
+    }
+    
+    .sobre h2{
+        margin-bottom: 10px;
+    }
+    
+    .sobre p{
+        margin-bottom: 40px;
+    }
+
+    #sobre-e-carousel .row{
+        display: block;
+    }
+
+    #texto{
+        width: 100%;
+    }
+
+    #slides {
+        margin: 0 auto;
+    }
+    
+    #carousel img{
+        border-radius: 20px;
+        height: 450px;
+        width: 100%;
+    }
+
+    #cards{
+        margin-bottom: 72px;
+    }
+    
+    #cards h2{
+        text-align: center;
+        margin: 48px 0;
+        font-size: 40px;
+    }
+    
+    .card{
+        margin-bottom: 25px;
+    }
+    
+    .card img{
+        height: 450px;
+    }
+
+    .card-img-overlay h3, h4{
+        font-size: 1.5em;
+    }
+
+    .card-img-overlay p{
+        font-size: 1em;
+    }
+
+    .card-img-overlay .btn{
+        font-size:medium;
+    }
+    
+    .card-subtitle{
+        padding-top: 5px;
+    }
+    
+    .card-text{
+        padding-top: 40px;
+    }
+
+    #contato h3{
+        font-size: 1.2em;;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width:1199px){
+    
+    #sobre-e-carousel .row{
+        align-items: center;
+    }
+
+    .card img{
+        height: 450px;
+    }
+
+    .card-img-overlay h3, h4{
+        font-size: 1.3em;
+    }
+
+    .card-img-overlay p{
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (min-width: 1200px){
+
+    #sobre-e-carousel .row{
+        align-items: center;
+    }
+}
+    
