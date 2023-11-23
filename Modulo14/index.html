@@ -21,10 +21,10 @@
             <nav id="menu" class="navbar-collapse collapse justify-content-end">
                 <ul class="nav nav-pills d-block d-md-flex">
                     <li class="nav-item rounded">
-                        <a class="nav-link font-title" href="#">Sobre a agência</a>
+                        <a class="nav-link font-title active" href="#sobre-a-agencia">Sobre a agência</a>
                     </li>
                     <li class="nav-item rounded">
-                        <a class="nav-link font-title" href="#">Modalidades</a>
+                        <a class="nav-link font-title" href="#modalidades">Modalidades</a>
                     </li>
                     <li class="nav-item rounded">
                         <a class="nav-link font-title" href="#">Destinos</a>
@@ -38,7 +38,7 @@
     </header>
 
     <div data-bs-spy="scroll" data-bs-target="header">
-        <section id="sobre-a-agencia">
+        <section id="sobre-a-agencia" class="cor-do-fundo">
             <div class="carousel slide" data-bs-ride="carousel" id="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -85,7 +85,158 @@
                 </div>
             </div>
         </section>
+
+        <section id="modalidades" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="font-title text-center pb-4">Escolha sua experiência</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded pb-2" src="./images/camping-pq.jpg" alt="pessoas em um camping">
+                        <h3 class="font-title">Camping</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <button class="btn btn-sm color fst-italic font-title button">Saiba mais</button>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded pb-2" src="./images/hotel-pq.jpg" alt="pessoas em um camping">
+                        <h3 class="font-title">Hotel</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <button class="btn btn-sm color fst-italic font-title button">Saiba mais</button>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded pb-2" src="./images/hostel-pq.jpg" alt="pessoas em um camping">
+                        <h3 class="font-title">Hostel</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <button class="btn btn-sm color fst-italic font-title button">Saiba mais</button>
+                    </div>
+                </div>
+            </div>
+        </section>
         
+        <section id="destinos" class="cor-do-fundo pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="font-title text-center pb-4">Destinos</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+                        <nav class="nav nav-pills flex-column">
+                            <button type="button" class="nav-link" data-bs-toggle="tab" data-bs-target="#america-do-sul">América do Sul</button>
+                            <button type="button" class="nav-link" data-bs-toggle="tab" data-bs-target="#america-do-norte">América do Norte</button>
+                            <button type="button" class="nav-link" data-bs-toggle="tab" data-bs-target="#europa">Europa</button>
+                            <button type="button" class="nav-link" data-bs-toggle="tab" data-bs-target="#asia">Ásia</button>
+                            <button type="button" class="nav-link" data-bs-toggle="tab" data-bs-target="">Caribe</button>
+                            <button type="button" class="nav-link" data-bs-toggle="tab" data-bs-target="">Austrália</button>
+                        </nav>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="america-do-sul">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/RJ-destino.jpg" alt="">
+                                        <h5 class="pt-2">Rio de Janeiro - BRA</h5>
+                                        <p class="mb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                        <button class="btn btn-sm btn-primary fst-italic">Ver destino</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/machu-picchu-destino.jpg" alt="">
+                                        <h5 class="pt-2">Machu Picchu - PER</h5>
+                                        <p class="mb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                        <button class="btn btn-sm btn-primary fst-italic">Ver destino</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/patagonia-destino.jpg" alt="">
+                                        <h5 class="pt-2">Patagonia - ARG</h5>
+                                        <p class="mb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                        <button class="btn btn-sm btn-primary fst-italic">Ver destino</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/fernando-de-noronha-destino.jpg" alt="">
+                                        <h5 class="pt-2">Fernando de Noronha - BRA</h5>
+                                        <p class="mb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                        <button class="btn btn-sm btn-primary fst-italic">Ver destino</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="america-do-norte">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/NY-destino.jpg" alt="">
+                                        <h5 class="pt-2">Nova York - EUA</h5>
+                                        <p class="mb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                        <button class="btn btn-sm btn-primary fst-italic">Ver destino</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/miami-destino.jpg" alt="">
+                                        <h5 class="pt-2">Miami - EUA</h5>
+                                        <p class="mb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                        <button class="btn btn-sm btn-primary fst-italic">Ver destino</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="europa">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/barcelona.jpg" alt="">
+                                        <h5 class="pt-2">Barcelona - ESP</h5>
+                                        <p class="mb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                        <button class="btn btn-sm btn-primary fst-italic">Ver destino</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/paris.jpg" alt="">
+                                        <h5 class="pt-2">Paris - FRA</h5>
+                                        <p class="mb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                        <button class="btn btn-sm btn-primary fst-italic">Ver destino</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/amsterda.jpg" alt="">
+                                        <h5 class="pt-2">Amsterdã - HOL</h5>
+                                        <p class="mb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                        <button class="btn btn-sm btn-primary fst-italic">Ver destino</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/madrid.jpg" alt="">
+                                        <h5 class="pt-2">Madrid - ESP</h5>
+                                        <p class="mb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                        <button class="btn btn-sm btn-primary fst-italic">Ver destino</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 mt-4" src="./images/santorini.jpg" alt="">
+                                        <h5 class="pt-2">Santorini - GRE</h5>
+                                        <p class="mb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                        <button class="btn btn-sm btn-primary fst-italic">Ver destino</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 mt-4" src="./images/roma.jpg" alt="">
+                                        <h5 class="pt-2">Roma - ITA</h5>
+                                        <p class="mb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                        <button class="btn btn-sm btn-primary fst-italic">Ver destino</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="asia">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/hong-kong.jpg" alt="">
+                                        <h5 class="pt-2">Hong Kong</h5>
+                                        <p class="mb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                        <button class="btn btn-sm btn-primary fst-italic">Ver destino</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/tailandia.jpg" alt="">
+                                        <h5 class="pt-2">Tailândia</h5>
+                                        <p class="mb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                        <button class="btn btn-sm btn-primary fst-italic">Ver destino</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>

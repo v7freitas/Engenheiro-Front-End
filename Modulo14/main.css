@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: #fff;
 }
 
 .font-title{
@@ -10,6 +11,11 @@ header{
     background-color: #ccc;
 }
 
+#header .nav .na-link.active{
+    background-color: #fff;
+    color: #000;
+}
+
 .nav .nav-item:hover{
     background-color: #fff;
 }
@@ -18,12 +24,16 @@ header{
     font-weight: bold;
 }
 
-.nav .nav-item .nav-link{
+#header .nav .nav-item .nav-link{
     color: #000;
 }
 
 .color{
     background-color: #ccc;
+}
+
+.cor-do-fundo{
+    background-color: #efefef;
 }
 
 .button:hover{
