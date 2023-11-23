@@ -1,0 +1,31 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-title{
+    font-family: 'Cinzel', serif;
+}
+
+header{
+    background-color: #ccc;
+}
+
+.nav .nav-item:hover{
+    background-color: #fff;
+}
+
+.nav .nav-item .nav-link:hover{
+    font-weight: bold;
+}
+
+.nav .nav-item .nav-link{
+    color: #000;
+}
+
+.color{
+    background-color: #ccc;
+}
+
+.button:hover{
+    background-color: #ccc;
+}

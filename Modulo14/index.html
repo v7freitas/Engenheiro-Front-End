@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="header">
+        <div class="container">
+            <h1 class="navbar-brand font-title">Site de viagens</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav id="menu" class="navbar-collapse collapse justify-content-end">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item rounded">
+                        <a class="nav-link font-title" href="#">Sobre a agência</a>
+                    </li>
+                    <li class="nav-item rounded">
+                        <a class="nav-link font-title" href="#">Modalidades</a>
+                    </li>
+                    <li class="nav-item rounded">
+                        <a class="nav-link font-title" href="#">Destinos</a>
+                    </li>
+                    <li class="nav-item rounded">
+                        <a class="nav-link font-title" href="#">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="header">
+        <section id="sobre-a-agencia">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./images/camping.jpg" alt="camping">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/hotel.jpg" alt="hotel">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/amigos-reunidos.jpg" alt="amigos em um hostel">
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button type="button" class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img class="d-block w-100 rounded" src="./images/felix-rostig-UmV2wr-Vbq8-unsplash.jpg" alt="">
+                        </div>
+                        <div class="col-md-7">
+                            <h2 class="font-title">Sobre a agência</h2>
+                            <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit aspernatur, nulla quo hic rem vero harum inventore tempore saepe voluptatem nesciunt molestiae repudiandae quas maiores quae laboriosam facere ipsa sed.</p>
+                            <button class="btn btn-sm color fst-italic font-title button">Saiba mais</button>
+                            <h2 class="font-title mt-3">Nossos serviços</h2>
+                            <ul>
+                                <li>
+                                    Camping
+                                </li>
+                                <li>
+                                    Hotéis
+                                </li>
+                                <li>
+                                    Hostels
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
