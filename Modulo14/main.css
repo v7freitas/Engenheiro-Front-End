@@ -11,16 +11,9 @@ header{
     background-color: #ccc;
 }
 
-#header .nav .na-link.active{
+#menu .nav .nav-link.active{
     background-color: #fff;
     color: #000;
-}
-
-.nav .nav-item:hover{
-    background-color: #fff;
-}
-
-.nav .nav-item .nav-link:hover{
     font-weight: bold;
 }
 

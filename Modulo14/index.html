@@ -27,7 +27,7 @@
                         <a class="nav-link font-title" href="#modalidades">Modalidades</a>
                     </li>
                     <li class="nav-item rounded">
-                        <a class="nav-link font-title" href="#">Destinos</a>
+                        <a class="nav-link font-title" href="#destinos">Destinos</a>
                     </li>
                     <li class="nav-item rounded">
                         <a class="nav-link font-title" href="#">Contato</a>
@@ -37,7 +37,7 @@
         </div>
     </header>
 
-    <div data-bs-spy="scroll" data-bs-target="header">
+    <div data-bs-spy="scroll" data-bs-target="header" data-bs-smooth-scroll="true">
         <section id="sobre-a-agencia" class="cor-do-fundo">
             <div class="carousel slide" data-bs-ride="carousel" id="carousel">
                 <div class="carousel-inner">
@@ -122,12 +122,12 @@
                 <div class="row">
                     <div class="col-md-2">
                         <nav class="nav nav-pills flex-column">
-                            <button type="button" class="nav-link" data-bs-toggle="tab" data-bs-target="#america-do-sul">América do Sul</button>
+                            <button type="button" class="nav-link active" data-bs-toggle="tab" data-bs-target="#america-do-sul">América do Sul</button>
                             <button type="button" class="nav-link" data-bs-toggle="tab" data-bs-target="#america-do-norte">América do Norte</button>
                             <button type="button" class="nav-link" data-bs-toggle="tab" data-bs-target="#europa">Europa</button>
                             <button type="button" class="nav-link" data-bs-toggle="tab" data-bs-target="#asia">Ásia</button>
-                            <button type="button" class="nav-link" data-bs-toggle="tab" data-bs-target="">Caribe</button>
-                            <button type="button" class="nav-link" data-bs-toggle="tab" data-bs-target="">Austrália</button>
+                            <button type="button" class="nav-link" data-bs-toggle="tab" data-bs-target="#caribe">Caribe</button>
+                            <button type="button" class="nav-link" data-bs-toggle="tab" data-bs-target="#australia">Austrália</button>
                         </nav>
                     </div>
                     <div class="col-md-10">
@@ -227,6 +227,26 @@
                                     <div class="col-md-3">
                                         <img class="d-block w-100" src="./images/tailandia.jpg" alt="">
                                         <h5 class="pt-2">Tailândia</h5>
+                                        <p class="mb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                        <button class="btn btn-sm btn-primary fst-italic">Ver destino</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="caribe">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/cancun.jpg" alt="">
+                                        <h5 class="pt-2">Cancún - MEX</h5>
+                                        <p class="mb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                        <button class="btn btn-sm btn-primary fst-italic">Ver destino</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="australia">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/sydney.jpg" alt="">
+                                        <h5 class="pt-2">Sydney- AUS</h5>
                                         <p class="mb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                                         <button class="btn btn-sm btn-primary fst-italic">Ver destino</button>
                                     </div>
