@@ -32,3 +32,60 @@ header{
 .button:hover{
     background-color: #ccc;
 }
+
+#destinos .nav .nav-link.active{
+    background-color: #ccc;
+    color: #000;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+}
+
+#destinos .nav .nav-link{
+    color: #000;
+    font-family: 'Cinzel', serif;
+}
+
+.tab-pane button{
+    background-color: #ccc;
+    color: #000;
+    font-family: 'Cinzel', serif;
+    border: none;
+}
+
+.tab-pane button:hover{
+    background-color: #939393;
+    color: #fff;
+}
+
+#contato ul li{
+    list-style: none;
+}
+
+#contato ul li a{
+    text-decoration: none;
+}
+
+#contato{
+    background-image: url(./images/imagem-contato-lg.jpg);
+    background-repeat: repeat;
+    background-size:cover;
+    background-position-y: center;
+    opacity: 0.98;
+}
+
+#contato h2,
+#contato h3,
+#contato label,
+#contato i,
+#contato a,
+#contato p {
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img{
+        height: 300px;
+    }
+
+    
+}
